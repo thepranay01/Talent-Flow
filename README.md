@@ -54,17 +54,15 @@ TalentFlow is a polished full‑stack Employee Management application built to s
 
 ---
 
-**What recruiters should look for**
-- **Backend:** Inspect `EmpController.java` for REST endpoints and request handling; `EmployeeServiceImpl.java` for service-layer design and transaction boundaries.
-- **Data modeling:** Check `EmployeeEntity.java` and repository usages for JPA mapping and repository patterns.
-- **Frontend:** Open `src/main/resources/static/index.html` and `app.js` to review responsive UI patterns, client-side validation, state handling, and graceful UX (loading states, toasts, modals).
-- **UX & Accessibility:** Notice keyboard-focusable controls, responsive breakpoints, and text truncation/aria-friendly patterns in the table/modal layouts.
+**Project Structure**
+- **Backend:** `EmpController.java` — REST endpoints (GET/POST/PUT/DELETE); `EmployeeServiceImpl.java` — service layer with transaction management; `EmployeeEntity.java` & `EmployeeRepository` — JPA mapping and data access.
+- **Frontend:** `src/main/resources/static/index.html` and `app.js` — responsive UI, client-side validation, state management, loading states, toast notifications, and accessible modals.
 
 ---
 
-**Notes & Next Steps**
-- The project is intentionally self-contained and ready for small deployment or demos.
-- If you want, I can add a Dockerfile, CI workflow (GitHub Actions), or a sample dataset to speed review by recruiters.
+**Notes**
+- Ready for local deployment or demos.
+- Can be extended with Docker, CI/CD workflows, or sample datasets as needed.
 
 ---
 
