@@ -1,4 +1,4 @@
-# TalentFlow — Employee Management (Spring Boot + Tailwind)
+# TalentFlow — Employee Management (Java + Spring Boot + Tailwind)
 
 TalentFlow is a polished full‑stack Employee Management application built to showcase practical end-to-end skills for backend, frontend, and full‑stack roles. It pairs a Spring Boot REST API and MySQL persistence with a responsive, mobile-first frontend using Tailwind CSS and vanilla JavaScript. The UI includes polished animations, accessible modals, toast notifications, and a complete CRUD workflow for managing employee records.
 
